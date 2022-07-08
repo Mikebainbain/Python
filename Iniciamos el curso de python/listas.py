@@ -13,7 +13,7 @@ print(lista2)
 # colocar un arreglo dentro de otro arreglo 
         #  0     1
 lista3 = [100,[101,200,300,400]]
-
+print(lista3)
 #imprimir de manera individual cada elemento
 
 print(lista1[0])
@@ -22,3 +22,9 @@ print(lista1[2])
 print(lista1[3])
 
 print("Esta es una impresion de la lista 3 que contiene una lista y se imprime el elemento 3 de esa lista anidada \n"+ str(lista3[1][3]))
+
+
+lista3.append('Agregado a la lista')
+lista3.append(100)
+print(lista3)
+
