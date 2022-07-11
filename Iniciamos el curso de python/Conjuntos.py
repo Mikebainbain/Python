@@ -17,7 +17,7 @@ lista=list(conjunto2) # la variable lista para comprobar que el conjunto ya es u
 print(lista)
 
 # Para ahorrar lineas de codigo 
-lista2 = [7,7,7,8,8,8,8,9,9,9,'hola   ']
+lista2 = [7,7,7,8,8,8,8,9,9,9,'hola']
 lista3 = list(set(lista2)) # Convierto la lista en conjunto, elimina elementos repetidos y nuevamente se convierte en lista
 print(lista3)
 
@@ -27,7 +27,7 @@ print(pert)
 perte = 3 not in lista3 #si no hay algun 3
 print(perte)
 
-pert = ' ' in lista3 # si hay algun hola
+pert = 'hola' in lista3 # si hay algun hola
 print(pert)
 perte = 'hola' not in lista3 #si no hay algun hola
 print(perte) 
