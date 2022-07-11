@@ -21,7 +21,7 @@ funciones para listas
 
 
 """""""""
-lista.append(15) # Agrega el valor 15 en la lista
+lista.append(15) # Agrega el valor 15 en la lista tambien se le puede agregar otra lista 
 print(lista)
 lista.insert(2,7) # inserta el valor 10 en la posicion 2
 print(lista)
